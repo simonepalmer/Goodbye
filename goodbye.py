@@ -11,7 +11,7 @@ def dots():
         time.sleep(1)
 
 def generate_message():
-    key = random.randint(1, 3)
+    key = random.randint(1, 10)
     message = messages[key]
     display_message(
         message
@@ -33,7 +33,12 @@ messages = {
     2: "Vi ses snart igen!",
     3: "Hej då :'(",
     4: "Jag kommer att sakna er!",
-    5: "glöm inte att punkta ut!"
+    5: "Glöm inte att punkta ut!",
+    6: "Hej då :'(",
+    7: "Vi ses snart igen!",
+    8: "Hej då :'(",
+    9: "Jag kommer att sakna er!",
+    10:"Ni har iallfall fortfarande Linux!"
 }
 
 if __name__ == "__main__":
